@@ -11,4 +11,6 @@ function changeCompletely(element, index, array) {
   `${array[index]}s!!!`
 }
 
+var animals = ["monkey", "apollo", "lion"]
 
+doToElementsInArray(changeCompletely, animals)
