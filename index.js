@@ -1,6 +1,6 @@
 // Add your doToElementsInArray() function here:
 function doToElementsInArray(cb, arr) {
-  arr.forEach(function(el) {
+  arr.forEach(el => {
     cb(el)
   })
 }
